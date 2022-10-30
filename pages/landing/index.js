@@ -20,7 +20,7 @@ const LandingPage = () => {
                     <Link href="/">
                         <a className="flex align-items-center">
                             <img src={`${contextPath}/layout/images/${layoutConfig.colorScheme === 'light' ? 'logo-dark' : 'logo-white'}.svg`} alt="Sakai Logo" height="50" className="mr-0 lg:mr-2" />
-                            <span className="text-900 font-medium text-2xl line-height-3 mr-8">SAKAI</span>
+                            <span className="text-900 font-medium text-2xl line-height-3 mr-8">SAKAI1</span>
                         </a>
                     </Link>
                     <StyleClass nodeRef={menuRef} selector="@next" enterClassName="hidden" leaveToClassName="hidden" hideOnOutsideClick="true">

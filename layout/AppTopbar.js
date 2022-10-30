@@ -24,7 +24,7 @@ const AppTopbar = forwardRef((props, ref) => {
                 <a className="layout-topbar-logo">
                     <>
                         <img src={`${contextPath}/layout/images/logo-${layoutConfig.colorScheme !== 'light' ? 'white' : 'dark'}.svg`} width="47.22px" height={'35px'} widt={'true'} alt="logo" />
-                        <span>SAKAI</span>
+                        <span>SAVRA</span>
                     </>
                 </a>
             </Link>
@@ -46,12 +46,7 @@ const AppTopbar = forwardRef((props, ref) => {
                     <i className="pi pi-user"></i>
                     <span>Profile</span>
                 </button>
-                <Link href="/documentation">
-                    <button type="button" className="p-link layout-topbar-button">
-                        <i className="pi pi-cog"></i>
-                        <span>Settings</span>
-                    </button>
-                </Link>
+                
             </div>
         </div>
     );

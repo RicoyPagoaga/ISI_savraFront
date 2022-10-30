@@ -10,7 +10,7 @@ const AppFooter = () => {
         <div className="layout-footer">
             <img src={`${contextPath}/layout/images/logo-${layoutConfig.colorScheme === 'light' ? 'dark' : 'white'}.svg`} alt="Logo" height="20" className="mr-2" />
             by
-            <span className="font-medium ml-2">PrimeReact</span>
+            <span className="font-medium ml-2">UJCV Systems</span>
         </div>
     );
 };
