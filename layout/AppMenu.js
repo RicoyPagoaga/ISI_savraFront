@@ -38,9 +38,20 @@ const AppMenu = () => {
                 },
                 {
                     label: 'Proveedores',
-                    icon: 'pi pi-fw pi-tablet',
+                    icon: 'pi pi-fw pi-user',
                     to: '/proveedores/'
                 },
+                {
+                    label: 'Cargos',
+                    icon: 'pi pi-fw pi-tablet',
+                    to: '/cargos/'
+                },
+                {
+                    label: 'usuarios',
+                    icon: 'pi pi-fw pi-user',
+                    to: '/usuarios/'
+                },
+
             ]
         },
         {
